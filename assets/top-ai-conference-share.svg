@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="390" viewBox="0 0 720 390">
+<style><![CDATA[
+svg { background:#091520; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif; }
+.title { fill:#FFD966; font-size:24px; font-weight:700; }
+.sub { fill:#7AABBF; font-size:12px; letter-spacing:1.2px; }
+.body { fill:#BEC9D2; font-size:17px; }
+.center { fill:#EDF1F4; font-size:32px; font-weight:700; }
+.center-sub { fill:#7AABBF; font-size:14px; }
+]]></style>
+<rect width="720" height="390" fill="#091520"/>
+<text x="40" y="44" class="title">全球 · 顶会论文贡献份额</text>
+<text x="40" y="68" class="sub">REGIONAL SHARE OF TOP-AI-CONFERENCE CONTRIBUTIONS</text>
+<g><circle cx="170" cy="184" r="94" fill="none" stroke="#d24b3e" stroke-width="34" stroke-dasharray="287.514 303.106" transform="rotate(-90.000 170 184)"/><circle cx="170" cy="184" r="94" fill="none" stroke="#3a6fd8" stroke-width="34" stroke-dasharray="209.493 381.127" transform="rotate(85.248 170 184)"/><circle cx="170" cy="184" r="94" fill="none" stroke="#3a9e6e" stroke-width="34" stroke-dasharray="33.134 557.486" transform="rotate(212.940 170 184)"/><circle cx="170" cy="184" r="94" fill="none" stroke="#7a52c8" stroke-width="34" stroke-dasharray="31.598 559.021" transform="rotate(233.136 170 184)"/><circle cx="170" cy="184" r="94" fill="none" stroke="#e08a2e" stroke-width="34" stroke-dasharray="9.509 581.110" transform="rotate(252.396 170 184)"/><circle cx="170" cy="184" r="94" fill="none" stroke="#7a8696" stroke-width="34" stroke-dasharray="19.372 571.247" transform="rotate(258.192 170 184)"/></g>
+<circle cx="170" cy="184" r="58" fill="#091520"/>
+<text x="170" y="182" text-anchor="middle" class="center">48.68%</text>
+<text x="170" y="210" text-anchor="middle" class="center-sub">中国 · China</text>
+<g><circle cx="360" cy="112" r="6" fill="#d24b3e"/><text x="378" y="116" class="body">中国 · China 48.68%</text><circle cx="360" cy="146" r="6" fill="#3a6fd8"/><text x="378" y="150" class="body">美国 · United States 35.47%</text><circle cx="360" cy="180" r="6" fill="#3a9e6e"/><text x="378" y="184" class="body">新加坡 · Singapore 5.61%</text><circle cx="360" cy="214" r="6" fill="#7a52c8"/><text x="378" y="218" class="body">欧洲 · Europe 5.35%</text><circle cx="360" cy="248" r="6" fill="#e08a2e"/><text x="378" y="252" class="body">韩国 · South Korea 1.61%</text><circle cx="360" cy="282" r="6" fill="#7a8696"/><text x="378" y="286" class="body">其他 · Rest of World 3.28%</text></g>
+<text x="40" y="356" class="sub">数据：MacroPolo 全球 AI 人才追踪 3.0 · NeurIPS / ICML / ICLR 顶会论文贡献（分数计数法）</text>
+</svg>

@@ -1,0 +1,176 @@
+<svg viewBox="0 0 520 520" width="520" height="520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="mc2"><circle cx="260" cy="260" r="212"/></clipPath>
+
+    <!-- Education+: top-right, bright green -->
+    <radialGradient id="a-edu" cx="64%" cy="26%" r="52%">
+      <stop offset="0%" stop-color="#90d840" stop-opacity=".72"/>
+      <stop offset="100%" stop-color="#90d840" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Work+: right, blue -->
+    <radialGradient id="a-work" cx="80%" cy="46%" r="50%">
+      <stop offset="0%" stop-color="#4090e8" stop-opacity=".68"/>
+      <stop offset="100%" stop-color="#4090e8" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Supply+: bottom-right, amber -->
+    <radialGradient id="a-sup" cx="68%" cy="74%" r="50%">
+      <stop offset="0%" stop-color="#f0b030" stop-opacity=".68"/>
+      <stop offset="100%" stop-color="#f0b030" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Care+: bottom-left, coral -->
+    <radialGradient id="a-care" cx="34%" cy="76%" r="52%">
+      <stop offset="0%" stop-color="#f07050" stop-opacity=".70"/>
+      <stop offset="100%" stop-color="#f07050" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Enjoy+: left, purple -->
+    <radialGradient id="a-enjoy" cx="22%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9070e0" stop-opacity=".65"/>
+      <stop offset="100%" stop-color="#9070e0" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Live+: top-left, teal -->
+    <radialGradient id="a-live" cx="28%" cy="28%" r="50%">
+      <stop offset="0%" stop-color="#20b0c0" stop-opacity=".65"/>
+      <stop offset="100%" stop-color="#20b0c0" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Collab: center-bloom, pink — closest to center -->
+    <radialGradient id="a-collab" cx="50%" cy="50%" r="42%">
+      <stop offset="0%" stop-color="#e03880" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#e03880" stop-opacity="0"/>
+    </radialGradient>
+
+    <path id="r5b"  d="M180 330 A80  80  0 0 1 180 192"/>
+    <path id="r10b" d="M130 370 A142 142 0 0 1 130 152"/>
+    <path id="r15b" d="M78  405 A212 212 0 0 1 78  118"/>
+  </defs>
+
+  <!-- BG -->
+  <circle cx="260" cy="260" r="212" fill="#0d1b2a" stroke="rgba(125,192,189,0.18)" stroke-width="0.8"/>
+
+  <!-- Color blobs -->
+  <g clip-path="url(#mc2)">
+    <ellipse cx="325" cy="148" rx="162" ry="150" fill="url(#a-edu)"/>
+    <ellipse cx="385" cy="262" rx="128" ry="115" fill="url(#a-work)"/>
+    <ellipse cx="348" cy="368" rx="150" ry="120" fill="url(#a-sup)"/>
+    <ellipse cx="195" cy="372" rx="148" ry="118" fill="url(#a-care)"/>
+    <ellipse cx="158" cy="260" rx="128" ry="118" fill="url(#a-enjoy)"/>
+    <ellipse cx="182" cy="155" rx="148" ry="132" fill="url(#a-live)"/>
+    <!-- Collab bloom: center, on top -->
+    <ellipse cx="260" cy="260" rx="115" ry="115" fill="url(#a-collab)"/>
+  </g>
+
+  <!-- Distance rings -->
+  <circle cx="260" cy="260" r="80"  fill="none" stroke="#a080c0" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <circle cx="260" cy="260" r="142" fill="none" stroke="#a080c0" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <circle cx="260" cy="260" r="212" fill="none" stroke="#a080c0" stroke-width="1"   stroke-dasharray="5 4"/>
+
+  <!-- Wedge shading bottom-left -->
+  <path d="M260 260 L95 382 A212 212 0 0 1 88 148 Z" fill="#8060c0" fill-opacity=".06"/>
+
+  <!-- Distance labels -->
+  <text font-size="10.5" fill="#b6a2e2" font-family="var(--font-sans,sans-serif)">
+    <textPath href="#r5b"  startOffset="12%">即时触达</textPath>
+  </text>
+  <text font-size="10.5" fill="#b6a2e2" font-family="var(--font-sans,sans-serif)">
+    <textPath href="#r10b" startOffset="10%">十分钟</textPath>
+  </text>
+  <text font-size="10.5" fill="#b6a2e2" font-family="var(--font-sans,sans-serif)">
+    <textPath href="#r15b" startOffset="8%">十五分钟慢行</textPath>
+  </text>
+
+  <!-- ── FACILITY NODES ── -->
+
+  <!-- 教育+: 开放实验室 top-center -->
+  <circle cx="275" cy="185" r="29" fill="#78cc30" stroke="white" stroke-width="2.5"/>
+  <text x="275" y="180" text-anchor="middle" font-size="16" font-family="var(--font-sans,sans-serif)">🔬</text>
+  <text x="275" y="196" text-anchor="middle" font-size="8.5" fill="#1e3a00" font-family="var(--font-sans,sans-serif)" font-weight="500">开放实验室</text>
+
+  <!-- 教育+: 全龄工作坊 top-right -->
+  <circle cx="355" cy="142" r="29" fill="#58b818" stroke="white" stroke-width="2.5"/>
+  <text x="355" y="137" text-anchor="middle" font-size="16" font-family="var(--font-sans,sans-serif)">🧑‍💻</text>
+  <text x="355" y="153" text-anchor="middle" font-size="8.5" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">全龄工作坊</text>
+
+  <!-- 教育+: 黑客松空间 far top-right -->
+  <circle cx="400" cy="88" r="27" fill="#3a9800" stroke="white" stroke-width="2.5"/>
+  <text x="400" y="83" text-anchor="middle" font-size="15" font-family="var(--font-sans,sans-serif)">⚡</text>
+  <text x="400" y="98" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">黑客松空间</text>
+
+  <!-- 工作+: Demo Day 场地 right -->
+  <circle cx="430" cy="225" r="29" fill="#2878e0" stroke="white" stroke-width="2.5"/>
+  <text x="430" y="220" text-anchor="middle" font-size="16" font-family="var(--font-sans,sans-serif)">🚀</text>
+  <text x="430" y="236" text-anchor="middle" font-size="8.5" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">Demo Day</text>
+
+  <!-- 工作+: 孵化器/投资人驻场 far right -->
+  <circle cx="438" cy="295" r="27" fill="#1858c0" stroke="white" stroke-width="2.5"/>
+  <text x="438" y="290" text-anchor="middle" font-size="15" font-family="var(--font-sans,sans-serif)">💡</text>
+  <text x="438" y="305" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">孵化器</text>
+
+  <!-- 供给+: 智能配送站 bottom-right -->
+  <circle cx="385" cy="360" r="27" fill="#d89018" stroke="white" stroke-width="2.5"/>
+  <text x="385" y="355" text-anchor="middle" font-size="15" font-family="var(--font-sans,sans-serif)">📦</text>
+  <text x="385" y="370" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">智能配送站</text>
+
+  <!-- 供给+: 订阅餐饮/社群食堂 bottom -->
+  <circle cx="318" cy="398" r="27" fill="#b87010" stroke="white" stroke-width="2.5"/>
+  <text x="318" y="393" text-anchor="middle" font-size="15" font-family="var(--font-sans,sans-serif)">🍱</text>
+  <text x="318" y="408" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">社群食堂</text>
+
+  <!-- 关怀+: AI健康监测站 bottom-left -->
+  <circle cx="210" cy="390" r="29" fill="#e05838" stroke="white" stroke-width="2.5"/>
+  <text x="210" y="385" text-anchor="middle" font-size="16" font-family="var(--font-sans,sans-serif)">🩺</text>
+  <text x="210" y="401" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">AI健康监测</text>
+
+  <!-- 关怀+: 心理支持空间 left-bottom -->
+  <circle cx="155" cy="340" r="27" fill="#c04030" stroke="white" stroke-width="2.5"/>
+  <text x="155" y="335" text-anchor="middle" font-size="15" font-family="var(--font-sans,sans-serif)">🧠</text>
+  <text x="155" y="350" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">心理支持</text>
+
+  <!-- 享受+: 人机共创展厅 left -->
+  <circle cx="130" cy="255" r="29" fill="#7050d0" stroke="white" stroke-width="2.5"/>
+  <text x="130" y="250" text-anchor="middle" font-size="16" font-family="var(--font-sans,sans-serif)">🎨</text>
+  <text x="130" y="266" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">人机共创展厅</text>
+
+  <!-- 享受+: 社群咖啡/草坪 left-up -->
+  <circle cx="165" cy="188" r="27" fill="#5038b0" stroke="white" stroke-width="2.5"/>
+  <text x="165" y="183" text-anchor="middle" font-size="15" font-family="var(--font-sans,sans-serif)">☕</text>
+  <text x="165" y="198" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">社群咖啡</text>
+
+  <!-- 居住+: 青年公寓/弹性SOHO top-left -->
+  <circle cx="152" cy="132" r="29" fill="#1098a8" stroke="white" stroke-width="2.5"/>
+  <text x="152" y="127" text-anchor="middle" font-size="16" font-family="var(--font-sans,sans-serif)">🏠</text>
+  <text x="152" y="143" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">弹性 SOHO</text>
+
+  <!-- 协作★: AI信任节点 inner-ring right-center -->
+  <circle cx="340" cy="270" r="29" fill="#c02870" stroke="white" stroke-width="3"/>
+  <text x="340" y="265" text-anchor="middle" font-size="15" font-family="var(--font-sans,sans-serif)">🤝</text>
+  <text x="340" y="281" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">AI 信任节点</text>
+
+  <!-- 协作★: 具身智能体验区 inner-ring bottom -->
+  <circle cx="260" cy="340" r="27" fill="#a01858" stroke="white" stroke-width="3"/>
+  <text x="260" y="335" text-anchor="middle" font-size="15" font-family="var(--font-sans,sans-serif)">🤖</text>
+  <text x="260" y="350" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">具身智能站</text>
+
+  <!-- 协作★: 机器人委托界面 inner-ring left -->
+  <circle cx="188" cy="268" r="27" fill="#a01858" stroke="white" stroke-width="3"/>
+  <text x="188" y="263" text-anchor="middle" font-size="15" font-family="var(--font-sans,sans-serif)">🦾</text>
+  <text x="188" y="278" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">机器人委托站</text>
+
+  <!-- ── CENTER: 社群 ── -->
+  <circle cx="260" cy="260" r="44" fill="#6030a8" stroke="white" stroke-width="3.5"/>
+  <text x="260" y="253" text-anchor="middle" font-size="20" font-weight="700" fill="white" font-family="var(--font-sans,sans-serif)">社群</text>
+  <text x="260" y="271" text-anchor="middle" font-size="9"  fill="white" opacity=".9" font-family="var(--font-sans,sans-serif)">使命·兴趣·信任</text>
+
+  <!-- Collab ring highlight -->
+  <circle cx="260" cy="260" r="80" fill="none" stroke="#c02870" stroke-width="1.2" stroke-dasharray="3 3" opacity=".6"/>
+
+  <!-- ★ NEW badge near collab nodes -->
+  <rect x="305" y="234" width="28" height="13" rx="4" fill="#c02870"/>
+  <text x="319" y="244" text-anchor="middle" font-size="8" fill="white" font-weight="500" font-family="var(--font-sans,sans-serif)">★ 新</text>
+
+  <!-- Outer floating labels -->
+  <text x="408" y="52"  text-anchor="middle" font-size="10" fill="#a6df72" font-family="var(--font-sans,sans-serif)">黑客松空间</text>
+  <text x="82"  y="98"  font-size="10" fill="#74d2da" font-family="var(--font-sans,sans-serif)">弹性居住 SOHO</text>
+  <text x="462" y="220" font-size="10" fill="#84b8f2" font-family="var(--font-sans,sans-serif)">Demo Day</text>
+  <text x="465" y="298" font-size="10" fill="#84b8f2" font-family="var(--font-sans,sans-serif)">孵化器</text>
+  <text x="355" y="440" text-anchor="middle" font-size="9.5" fill="#f0c878" font-family="var(--font-sans,sans-serif)">智能配送站·社群食堂</text>
+  <text x="82"  y="340" font-size="9.5" fill="#f2998a" font-family="var(--font-sans,sans-serif)">心理支持空间</text>
+  </svg>

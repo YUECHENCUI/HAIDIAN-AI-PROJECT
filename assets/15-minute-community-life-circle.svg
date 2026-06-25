@@ -1,0 +1,141 @@
+<svg viewBox="0 0 520 520" width="520" height="520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="mc"><circle cx="260" cy="260" r="212"/></clipPath>
+    <radialGradient id="g-edu" cx="62%" cy="28%" r="52%">
+      <stop offset="0%" stop-color="#c8e060" stop-opacity=".78"/>
+      <stop offset="100%" stop-color="#c8e060" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g-health" cx="28%" cy="32%" r="54%">
+      <stop offset="0%" stop-color="#6ec87a" stop-opacity=".72"/>
+      <stop offset="100%" stop-color="#6ec87a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g-sup" cx="24%" cy="54%" r="50%">
+      <stop offset="0%" stop-color="#5ab870" stop-opacity=".68"/>
+      <stop offset="100%" stop-color="#5ab870" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g-care" cx="36%" cy="74%" r="52%">
+      <stop offset="0%" stop-color="#f99060" stop-opacity=".72"/>
+      <stop offset="100%" stop-color="#f99060" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g-enjoy" cx="66%" cy="70%" r="52%">
+      <stop offset="0%" stop-color="#f8b84a" stop-opacity=".70"/>
+      <stop offset="100%" stop-color="#f8b84a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g-admin" cx="82%" cy="50%" r="44%">
+      <stop offset="0%" stop-color="#78c0f0" stop-opacity=".68"/>
+      <stop offset="100%" stop-color="#78c0f0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- BG -->
+  <circle cx="260" cy="260" r="212" fill="#0d1b2a" stroke="rgba(125,192,189,0.18)" stroke-width="0.8"/>
+
+  <!-- Color blobs -->
+  <g clip-path="url(#mc)">
+    <ellipse cx="318" cy="155" rx="160" ry="148" fill="url(#g-edu)"/>
+    <ellipse cx="182" cy="162" rx="148" ry="135" fill="url(#g-health)"/>
+    <ellipse cx="168" cy="260" rx="132" ry="118" fill="url(#g-sup)"/>
+    <ellipse cx="200" cy="368" rx="145" ry="118" fill="url(#g-care)"/>
+    <ellipse cx="340" cy="355" rx="148" ry="122" fill="url(#g-enjoy)"/>
+    <ellipse cx="378" cy="258" rx="122" ry="112" fill="url(#g-admin)"/>
+  </g>
+
+  <!-- Distance rings -->
+  <circle cx="260" cy="260" r="80"  fill="none" stroke="#e07090" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <circle cx="260" cy="260" r="142" fill="none" stroke="#e07090" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <circle cx="260" cy="260" r="212" fill="none" stroke="#e07090" stroke-width="1"   stroke-dasharray="5 4"/>
+
+  <!-- Wedge shading bottom-left -->
+  <path d="M260 260 L95 378 A212 212 0 0 1 88 155 Z" fill="#e86080" fill-opacity=".07"/>
+
+  <!-- Distance text labels along wedge edge -->
+  <text font-size="10.5" fill="#ec85a4" font-family="var(--font-sans,sans-serif)">
+    <textPath href="#r5"  startOffset="12%">五分钟</textPath>
+  </text>
+  <text font-size="10.5" fill="#ec85a4" font-family="var(--font-sans,sans-serif)">
+    <textPath href="#r10" startOffset="10%">十分钟</textPath>
+  </text>
+  <text font-size="10.5" fill="#ec85a4" font-family="var(--font-sans,sans-serif)">
+    <textPath href="#r15" startOffset="8%">十五分钟</textPath>
+  </text>
+  <defs>
+    <path id="r5"  d="M180 330 A80  80  0 0 1 180 192"/>
+    <path id="r10" d="M130 370 A142 142 0 0 1 130 152"/>
+    <path id="r15" d="M78  400 A212 212 0 0 1 78  122"/>
+  </defs>
+
+  <!-- ── FACILITY NODES ── -->
+
+  <!-- 幼儿园 -->
+  <circle cx="285" cy="188" r="29" fill="#c8dc40" stroke="white" stroke-width="2.5"/>
+  <text x="285" y="183" text-anchor="middle" font-size="17" font-family="var(--font-sans,sans-serif)">🏫</text>
+  <text x="285" y="202" text-anchor="middle" font-size="9" fill="#3a4e00" font-family="var(--font-sans,sans-serif)" font-weight="500">幼儿园</text>
+
+  <!-- 小学 -->
+  <circle cx="350" cy="150" r="29" fill="#8ac840" stroke="white" stroke-width="2.5"/>
+  <text x="350" y="145" text-anchor="middle" font-size="17" font-family="var(--font-sans,sans-serif)">🏫</text>
+  <text x="350" y="164" text-anchor="middle" font-size="9" fill="#1e4000" font-family="var(--font-sans,sans-serif)" font-weight="500">小学</text>
+
+  <!-- 中学 -->
+  <circle cx="390" cy="90" r="29" fill="#58b028" stroke="white" stroke-width="2.5"/>
+  <text x="390" y="85" text-anchor="middle" font-size="17" font-family="var(--font-sans,sans-serif)">🏫</text>
+  <text x="390" y="104" text-anchor="middle" font-size="9" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">中学</text>
+
+  <!-- 儿童游乐场 -->
+  <circle cx="338" cy="232" r="26" fill="#fabe50" stroke="white" stroke-width="2.5"/>
+  <text x="338" y="228" text-anchor="middle" font-size="15" font-family="var(--font-sans,sans-serif)">🎠</text>
+  <text x="338" y="243" text-anchor="middle" font-size="8" fill="#5a3600" font-family="var(--font-sans,sans-serif)" font-weight="500">儿童游乐场</text>
+
+  <!-- 社区卫生服务中心 -->
+  <circle cx="152" cy="138" r="29" fill="#50b868" stroke="white" stroke-width="2.5"/>
+  <text x="152" y="133" text-anchor="middle" font-size="17" font-family="var(--font-sans,sans-serif)">🏥</text>
+  <text x="152" y="152" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">社区卫生</text>
+
+  <!-- 小型商业 -->
+  <circle cx="176" cy="220" r="27" fill="#50b868" stroke="white" stroke-width="2.5"/>
+  <text x="176" y="215" text-anchor="middle" font-size="16" font-family="var(--font-sans,sans-serif)">🏪</text>
+  <text x="176" y="231" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">小型商业</text>
+
+  <!-- 菜场 -->
+  <circle cx="192" cy="290" r="27" fill="#3a9e50" stroke="white" stroke-width="2.5"/>
+  <text x="192" y="285" text-anchor="middle" font-size="16" font-family="var(--font-sans,sans-serif)">🥦</text>
+  <text x="192" y="301" text-anchor="middle" font-size="8.5" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">菜场</text>
+
+  <!-- 养老设施 -->
+  <circle cx="224" cy="368" r="29" fill="#f07858" stroke="white" stroke-width="2.5"/>
+  <text x="224" y="363" text-anchor="middle" font-size="17" font-family="var(--font-sans,sans-serif)">🏡</text>
+  <text x="224" y="382" text-anchor="middle" font-size="8.5" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">养老设施</text>
+
+  <!-- 公园 -->
+  <circle cx="312" cy="335" r="27" fill="#f0a838" stroke="white" stroke-width="2.5"/>
+  <text x="312" y="330" text-anchor="middle" font-size="16" font-family="var(--font-sans,sans-serif)">🌳</text>
+  <text x="312" y="346" text-anchor="middle" font-size="8.5" fill="#5a3400" font-family="var(--font-sans,sans-serif)" font-weight="500">公园</text>
+
+  <!-- 社区文化体育 -->
+  <circle cx="378" cy="348" r="29" fill="#e8922a" stroke="white" stroke-width="2.5"/>
+  <text x="378" y="343" text-anchor="middle" font-size="16" font-family="var(--font-sans,sans-serif)">🏋</text>
+  <text x="378" y="357" text-anchor="middle" font-size="7.5" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">文化设施</text>
+  <text x="378" y="368" text-anchor="middle" font-size="7.5" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">室内体育</text>
+
+  <!-- 大型超市 -->
+  <circle cx="428" cy="278" r="29" fill="#50a0e0" stroke="white" stroke-width="2.5"/>
+  <text x="428" y="273" text-anchor="middle" font-size="17" font-family="var(--font-sans,sans-serif)">🛒</text>
+  <text x="428" y="292" text-anchor="middle" font-size="8.5" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">大型超市</text>
+
+  <!-- 社区行政 -->
+  <circle cx="415" cy="180" r="29" fill="#3880c8" stroke="white" stroke-width="2.5"/>
+  <text x="415" y="175" text-anchor="middle" font-size="17" font-family="var(--font-sans,sans-serif)">🏛</text>
+  <text x="415" y="194" text-anchor="middle" font-size="8" fill="white" font-family="var(--font-sans,sans-serif)" font-weight="500">社区行政</text>
+
+  <!-- ── CENTER ── -->
+  <circle cx="260" cy="260" r="44" fill="#e82858" stroke="white" stroke-width="3.5"/>
+  <text x="260" y="254" text-anchor="middle" font-size="28" font-weight="700" fill="white" font-family="var(--font-sans,sans-serif)">家</text>
+  <text x="260" y="274" text-anchor="middle" font-size="10" fill="white" opacity=".9" font-family="var(--font-sans,sans-serif)">居住空间</text>
+
+  <!-- outer floating labels -->
+  <text x="395" y="52"  text-anchor="middle" font-size="10.5" fill="#a6df72" font-family="var(--font-sans,sans-serif)">中学</text>
+  <text x="82"  y="100" font-size="10"   fill="#84d6a8" font-family="var(--font-sans,sans-serif)">社区卫生服务中心</text>
+  <text x="455" y="175" font-size="10"   fill="#84b8f2" font-family="var(--font-sans,sans-serif)">社区行政设施</text>
+  <text x="462" y="282" font-size="10"   fill="#84b8f2" font-family="var(--font-sans,sans-serif)">大型超市</text>
+  <text x="352" y="398" text-anchor="middle" font-size="9.5" fill="#f0c878" font-family="var(--font-sans,sans-serif)">社区文化设施·室内体育场馆</text>
+  </svg>

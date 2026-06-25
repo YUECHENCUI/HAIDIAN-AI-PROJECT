@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430">
+<style><![CDATA[
+svg { background:#091520; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif; }
+.title { fill:#FFD966; font-size:24px; font-weight:700; } .sub { fill:#7AABBF; font-size:12px; letter-spacing:1.2px; }
+.name { fill:#EDF1F4; font-size:20px; font-weight:700; } .pct { font-size:20px; font-weight:700; } .inst { fill:#7AABBF; font-size:13px; }
+]]></style>
+<rect width="720" height="430" fill="#091520"/>
+<text x="40" y="44" class="title">中国 · 按区域与机构</text>
+<text x="40" y="68" class="sub">CHINA · BY REGION &amp; INSTITUTION</text>
+<g><line x1="48" y1="94" x2="48" y2="148" stroke="#d24b3e" stroke-width="3"/><text x="66" y="106" class="name">北京</text><text x="150" y="106" class="pct" fill="#d24b3e">16.11%</text><rect x="66" y="120" width="500" height="12" rx="6" fill="rgba(255,255,255,.07)"/><rect x="66" y="120" width="460.0" height="12" rx="6" fill="#d24b3e"/><text x="66" y="152" class="inst">清华 4.73 · 北大 3.63 · 中科院 3.24 · 字节 2.10 · 北航 1.27 · 北理工 1.14</text><line x1="48" y1="166" x2="48" y2="220" stroke="#3a6fd8" stroke-width="3"/><text x="66" y="178" class="name">沪杭</text><text x="150" y="178" class="pct" fill="#3a6fd8">14.82%</text><rect x="66" y="192" width="500" height="12" rx="6" fill="rgba(255,255,255,.07)"/><rect x="66" y="192" width="423.2" height="12" rx="6" fill="#3a6fd8"/><text x="66" y="224" class="inst">上海交大 3.13 · 浙大 2.82 · 南大 2.47 · 阿里 2.23 · 上海AI实验室 2.11 · 复旦 2.06</text><line x1="48" y1="238" x2="48" y2="292" stroke="#3a9e6e" stroke-width="3"/><text x="66" y="250" class="name">大湾区</text><text x="150" y="250" class="pct" fill="#3a9e6e">11.71%</text><rect x="66" y="264" width="500" height="12" rx="6" fill="rgba(255,255,255,.07)"/><rect x="66" y="264" width="334.4" height="12" rx="6" fill="#3a9e6e"/><text x="66" y="296" class="inst">港科大(广州) 2.99 · 港中文 2.63 · 港大 1.67 · 腾讯 1.58 · 中山大学 1.43 · 华为 1.41</text><line x1="48" y1="310" x2="48" y2="364" stroke="#e08a2e" stroke-width="3"/><text x="66" y="322" class="name">武汉</text><text x="150" y="322" class="pct" fill="#e08a2e">2.12%</text><rect x="66" y="336" width="500" height="12" rx="6" fill="rgba(255,255,255,.07)"/><rect x="66" y="336" width="60.5" height="12" rx="6" fill="#e08a2e"/><text x="66" y="368" class="inst">华中科大 1.06 · 武汉大学 1.06</text></g>
+<text x="40" y="400" class="sub">数据：MacroPolo 全球 AI 人才追踪 3.0 · 顶会论文贡献（分数计数法）</text>
+</svg>
